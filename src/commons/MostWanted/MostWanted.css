@@ -1,0 +1,14 @@
+.container-wanted {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.title-container-wanted {
+  font-family: "NeueMachina-Ultrabold";
+  font-weight: 800;
+  margin-left: 15px;
+  color: #76b043;
+}

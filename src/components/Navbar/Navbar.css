@@ -1,0 +1,56 @@
+.container-navbar {
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container-navbar a,
+img {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.nav-btn-icon {
+  background-color: Transparent;
+  border: none;
+}
+
+#nav-categeorias {
+  font-family: "NeueMachina-Ultrabold";
+  color: #000000;
+  font-size: 16px;
+}
+
+#nav-hotsale {
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ec2227;
+  border: 2px solid #ec2227;
+}
+
+.nav-btn {
+  font-family: "NeueMachina-Regular";
+  color: #8c8c8c;
+  font-size: 16px;
+  height: 18px;
+}
+
+.nav-btn-icon {
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#btn-search {
+  cursor: pointer;
+  overflow: hidden;
+}

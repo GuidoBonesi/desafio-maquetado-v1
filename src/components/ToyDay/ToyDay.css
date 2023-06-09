@@ -1,0 +1,11 @@
+.title-toy-day {
+  color: #f26522;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.toy-day-flex {
+  display: flex;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,92 @@
+.container-winter-collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-winter-collection,
+.box-top-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-winter-collection {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.box-top-left {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.box-title-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-winter-collection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-winter-collection,
+  .box-top-left,
+  .box-title-description {
+    width: 100%;
+  }
+}
+
+.title-winter-collection {
+  width: 50%;
+}
+
+.box-top-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-column: span 2;
+}
+
+.title-winter-collection h2,
+.title-winter-collection h4 {
+  margin: 0;
+}
+
+.btn-collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 48px;
+  background: #f26522;
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 0px #000000;
+  border-radius: 6px;
+}
+
+.btn-collection-text {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 768px) {
+  .container-winter-collection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-winter-collection,
+  .box-top-left {
+    width: 100%;
+  }
+}

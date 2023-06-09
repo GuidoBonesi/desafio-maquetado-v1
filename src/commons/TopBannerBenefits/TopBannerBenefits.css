@@ -1,0 +1,30 @@
+.container-benefits-desktop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.benefit img {
+  height: 18px;
+}
+
+.title-banner-benefits {
+  font-size: 18px;
+  margin: 0;
+}
+
+.description-banner-benefits {
+  margin: 0;
+}
+
+.divider {
+  border-right: 2px solid #c8c8c8;
+  transform: rotate(30deg);
+}

@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-row {
+  display: flex;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 10px;
+  /* Agrega aquí otros estilos según tus necesidades */
+}

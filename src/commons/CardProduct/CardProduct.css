@@ -1,0 +1,37 @@
+.brand-product {
+  font-family: "Neue Machina";
+  font-size: 16px;
+  color: #7d5a94;
+}
+
+.image-product {
+  height: 300px;
+}
+
+.title-product {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000;
+}
+
+.payment-container {
+  display: flex;
+  align-items: center;
+}
+
+.payment-product {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #505050;
+}
+
+.text-final {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}

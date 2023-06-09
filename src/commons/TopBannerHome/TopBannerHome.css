@@ -1,0 +1,15 @@
+.container-top-banner-desktop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #7d5a94;
+}
+
+.top-banner-desktop {
+  font-family: "Inter";
+  font-weight: 700;
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+}
